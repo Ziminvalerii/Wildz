@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E3E19490-0282-44C5-87D4-A18B959978B8"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89B8646A-0D41-4960-A58A-3F86645C3A8D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Constant/UserDefaultsValues.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "availableCannons"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "89B8646A-0D41-4960-A58A-3F86645C3A8D - df7505916eba4c6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Wildz.UserDefaultsValues.availableCannons.setter : Swift.Array&lt;Wildz.CannonModel&gt;"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Constant/UserDefaultsValues.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "89B8646A-0D41-4960-A58A-3F86645C3A8D - b7f7e1f4d479d7e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Wildz.CannonModel) -&gt; Swift.String in static Wildz.UserDefaultsValues.availableCannons.setter : Swift.Array&lt;Wildz.CannonModel&gt;"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Constant/UserDefaultsValues.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B692E576-8A33-4D0F-9843-C70C36EBB479"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Constant/UserDefaultsValues.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "availablCatapults"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B692E576-8A33-4D0F-9843-C70C36EBB479 - bd8e6cd1c51758b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Wildz.UserDefaultsValues.availablCatapults.setter : Swift.Array&lt;Wildz.CatapultModel&gt;"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Constant/UserDefaultsValues.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "B692E576-8A33-4D0F-9843-C70C36EBB479 - c44719640727a576"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Wildz.CatapultModel) -&gt; Swift.String in static Wildz.UserDefaultsValues.availablCatapults.setter : Swift.Array&lt;Wildz.CatapultModel&gt;"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Constant/UserDefaultsValues.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53E1E46C-AF21-4B44-99EC-E681F48AD9C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Constant/UserDefaultsValues.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "availablFences"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "53E1E46C-AF21-4B44-99EC-E681F48AD9C0 - b620b7bfa7ea2132"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Wildz.UserDefaultsValues.availablFences.setter : Swift.Array&lt;Wildz.FenceModel&gt;"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Constant/UserDefaultsValues.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "53E1E46C-AF21-4B44-99EC-E681F48AD9C0 - b338516e01bd61ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Wildz.FenceModel) -&gt; Swift.String in static Wildz.UserDefaultsValues.availablFences.setter : Swift.Array&lt;Wildz.FenceModel&gt;"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Constant/UserDefaultsValues.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C557BBC0-6DB8-4A98-B4D8-CDD7B78BAE45"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Screens/Game/Scene/GameSceneManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "didBegin(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DA87B6A-13A1-4298-AB1B-25C2BCF1EDA5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Screens/Game/Scene/GameSceneManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "didBegin(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1DA87B6A-13A1-4298-AB1B-25C2BCF1EDA5 - 2c2a3085c3307595"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wildz.GameSceneManager.didBegin(__C.SKPhysicsContact) -&gt; ()"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Screens/Game/Scene/GameSceneManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "3247">
+               </Location>
+               <Location
+                  uuid = "1DA87B6A-13A1-4298-AB1B-25C2BCF1EDA5 - 2c2a3085c3307595"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wildz.GameSceneManager.didBegin(__C.SKPhysicsContact) -&gt; ()"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Screens/Game/Scene/GameSceneManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "3444">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1F7E5BF-BBAF-4035-BF56-146DBEA5357D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Screens/Game/Scene/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "switchState(state:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB2C5DA2-8E2D-4409-BC90-35EB7E8BFDBF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Screens/Game/Scene/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "switchState(state:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DA46E86-4A73-4408-8D44-9F8152E38A40"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Screens/Instruction/View/InstructionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "backButtonPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "736F0DF7-392B-45DD-BA25-3C172E4500F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Infrastracture/Router.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "dissmiss()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB691004-3E4F-47C4-8285-E6CA2D891262"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Screens/Shop/View/ShopViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "buyButtonPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10D6E814-2F08-4B70-BBE0-BE9E50F2D3CD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Managers/PurchaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "productsRequest(_:didReceive:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "10D6E814-2F08-4B70-BBE0-BE9E50F2D3CD - 4e0c447efed8d86c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wildz.IAPManager.productsRequest(_: __C.SKProductsRequest, didReceive: __C.SKProductsResponse) -&gt; ()"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Managers/PurchaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "10D6E814-2F08-4B70-BBE0-BE9E50F2D3CD - 355ba2a3accac592"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.SKProduct) -&gt; Wildz.ProductSub in Wildz.IAPManager.productsRequest(_: __C.SKProductsRequest, didReceive: __C.SKProductsResponse) -&gt; ()"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Managers/PurchaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA6C7FDD-403F-416A-A26A-C08DD89A1593"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Screens/Shop/View/ShopViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "buttonActionType"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89E51C9A-8B41-432B-B5A8-81E27AC25430"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Screens/Shop/View/ShopViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "configureShopButton(currentModel:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23519A49-134D-4824-B557-7C6B43D08902"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Screens/Shop/View/ShopViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "cancelButtonPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FB34FB7-60ED-4B56-8C30-A6B0BC8E5835"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Nodes/GroundNode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "touchesEnded(_:with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8FB34FB7-60ED-4B56-8C30-A6B0BC8E5835 - d0918671a40b6867"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.SKSpriteNode) -&gt; () in Wildz.GroundNode.touchesEnded(_: Swift.Set&lt;__C.UITouch&gt;, with: Swift.Optional&lt;__C.UIEvent&gt;) -&gt; ()"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Nodes/GroundNode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "8FB34FB7-60ED-4B56-8C30-A6B0BC8E5835 - 3a157292ae147851"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.SKNode, Swift.UnsafeMutablePointer&lt;ObjectiveC.ObjCBool&gt;) -&gt; () in closure #1 (__C.SKSpriteNode) -&gt; () in Wildz.GroundNode.touchesEnded(_: Swift.Set&lt;__C.UITouch&gt;, with: Swift.Optional&lt;__C.UIEvent&gt;) -&gt; ()"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Nodes/GroundNode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "211">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E510A57-D3E9-4969-9AF9-DAA26193F84E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Nodes/GroundNode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "touchesEnded(_:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D08ED4F0-F71F-4125-8B1C-0C2D26CB8590"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Nodes/GroundNode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "touchesEnded(_:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
