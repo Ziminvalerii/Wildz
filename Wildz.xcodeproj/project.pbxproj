@@ -109,7 +109,6 @@
 		D126E5E82914F3C70098F5CF /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
 		D126E5EA291526FD0098F5CF /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		D126E5EC2915272A0098F5CF /* PurchaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseModel.swift; sourceTree = "<group>"; };
-		D126E5EE291527650098F5CF /* StoreKitConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreKitConfiguration.storekit; sourceTree = "<group>"; };
 		D13758772913EB7500577FAC /* StartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPresenter.swift; sourceTree = "<group>"; };
 		D13FCD76290B1BF2002A8927 /* CoinsFactoryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsFactoryNode.swift; sourceTree = "<group>"; };
 		D13FCD78290B23C0002A8927 /* CoinNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinNode.swift; sourceTree = "<group>"; };
@@ -316,7 +315,6 @@
 		D1AE4BEB290696CE0014EEB4 /* Wildz */ = {
 			isa = PBXGroup;
 			children = (
-				D126E5EE291527650098F5CF /* StoreKitConfiguration.storekit */,
 				D1E59FEB291150C3009B5F59 /* Info.plist */,
 				D1AE4BEC290696CE0014EEB4 /* AppDelegate.swift */,
 				D13FCD81290EC1F2002A8927 /* Managers */,
@@ -918,7 +916,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = MW55CH9923;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -954,7 +952,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = MW55CH9923;
 				GENERATE_INFOPLIST_FILE = YES;

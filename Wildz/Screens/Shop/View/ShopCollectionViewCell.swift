@@ -16,12 +16,12 @@ class ShopCollectionViewCell: UICollectionViewCell {
     func configure(model: ShopValuesModelProtocol, realMoney: ProductSub?) {
         itemImageView.image = model.image
         if let price = realMoney?.price {
-            priceLabel.text = price.description//model.price.description
+            priceLabel.setStrokeText(price.description)
         } else {
             if model.price == 0 {
-                priceLabel.text = "--"
+                priceLabel.setStrokeText("--")
             } else {
-                priceLabel.text = model.price.description
+                priceLabel.setStrokeText(model.price.description)
             }
         }
        

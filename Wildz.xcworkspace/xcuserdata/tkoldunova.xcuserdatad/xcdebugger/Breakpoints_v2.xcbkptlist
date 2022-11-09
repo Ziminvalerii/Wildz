@@ -295,54 +295,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "10D6E814-2F08-4B70-BBE0-BE9E50F2D3CD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Wildz/Managers/PurchaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "productsRequest(_:didReceive:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "10D6E814-2F08-4B70-BBE0-BE9E50F2D3CD - 4e0c447efed8d86c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Wildz.IAPManager.productsRequest(_: __C.SKProductsRequest, didReceive: __C.SKProductsResponse) -&gt; ()"
-                  moduleName = "Wildz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Managers/PurchaseManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "65">
-               </Location>
-               <Location
-                  uuid = "10D6E814-2F08-4B70-BBE0-BE9E50F2D3CD - 355ba2a3accac592"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.SKProduct) -&gt; Wildz.ProductSub in Wildz.IAPManager.productsRequest(_: __C.SKProductsRequest, didReceive: __C.SKProductsResponse) -&gt; ()"
-                  moduleName = "Wildz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Managers/PurchaseManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "35">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "AA6C7FDD-403F-416A-A26A-C08DD89A1593"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
