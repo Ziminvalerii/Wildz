@@ -11,23 +11,27 @@ import SpriteKit
 
 
 enum ShopModel: CaseIterable {
-    case coinFactory
+    
     case cannon
     case catapult
     case fence
+    case coinFactory
     
     var values: [ShopValuesModelProtocol] {
         switch self {
-        case .coinFactory:
-            return CoinFactoryModel.allCases
+       
         case .cannon:
             return CannonModel.allCases
         case .catapult:
             return CatapultModel.allCases
         case .fence:
             return FenceModel.allCases
+        case .coinFactory:
+            return CoinFactoryModel.allCases
         }
     }
+    
+    
 }
 
 protocol ShopValuesModelProtocol {
@@ -57,7 +61,7 @@ case coinFactory1 = "com.coinFactory1.key"
     var price: Int {
         switch self {
         case .coinFactory1:
-            return 50
+            return 0
         }
     }
     
@@ -104,11 +108,11 @@ enum CannonModel: String, CaseIterable, ShopValuesModelProtocol {
     var price: Int {
         switch self {
         case .cannon1:
-            return 50
+            return 0
         case .cannon2:
             return 50
         case .cannon3:
-            return 50
+            return 100
         case .cannon4:
             return 0
         }
@@ -147,9 +151,9 @@ case catapult3 = "com.catapult3.key"
     var price: Int {
         switch self {
         case .catapult1:
-            return 50
+            return 0
         case .catapult2:
-            return 50
+            return 100
         case .catapult3:
             return 0
         }
@@ -213,13 +217,13 @@ enum FenceModel: String, CaseIterable, ShopValuesModelProtocol {
     var price: Int {
         switch self {
         case .fence1:
-            return 50
+            return 0
         case .fence2:
             return 50
         case .fence3:
-            return 50
+            return 100
         case .fence4:
-            return 50
+            return 150
         case .fence5:
             return 0
         }

@@ -36,7 +36,7 @@ class ShopViewController: BaseViewController<ShopPresenterProtocol>, ShopViewPro
             customSegmentControl.selectorTextColor = .white
             customSegmentControl.selectorViewColor = .white
             customSegmentControl.textColor = .white
-            customSegmentControl.setButtonTitles(buttonTitles: ["Coins factory", "Cannon", "Catapult", "Fence"])
+            customSegmentControl.setButtonTitles(buttonTitles: ["Cannon", "Catapult", "Fence", "Coins factory"])
             customSegmentControl.delegate = self
         }
     }

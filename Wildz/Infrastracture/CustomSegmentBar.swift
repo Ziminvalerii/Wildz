@@ -92,8 +92,11 @@ extension CustomSegmentedControl {
     
     private func configSelectorView() {
         let selectorWidth = frame.width / CGFloat(self.buttonTitles.count)
-        selectorView = UIView(frame: CGRect(x: 0, y: self.frame.height, width: selectorWidth, height: 2))
-        selectorView.backgroundColor = selectorViewColor
+        selectorView = UIView(frame: CGRect(x: 0, y: 0, width: selectorWidth, height: self.frame.size.height))
+        selectorView.backgroundColor = UIColor.clear
+        selectorView.layer.cornerRadius = 4
+        selectorView.layer.borderColor = selectorViewColor.cgColor
+        selectorView.layer.borderWidth = 2//selectorViewColor.cgColor
         addSubview(selectorView)
     }
     

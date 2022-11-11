@@ -21,7 +21,7 @@ class ShopCollectionViewCell: UICollectionViewCell {
             if model.price == 0 {
                 priceLabel.setStrokeText("--")
             } else {
-                priceLabel.setStrokeText(model.price.description)
+                priceLabel.strokeTextWithImage(model.price.description)//setStrokeText()
             }
         }
        
