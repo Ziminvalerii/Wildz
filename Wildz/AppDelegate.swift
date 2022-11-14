@@ -143,7 +143,7 @@ fileprivate func request(uuid: String, _ handler: @escaping (Result) -> Void) {
 fileprivate var gotOverReview: Bool {
     get {
         let now = Date()
-        let date = Date("2022-11-13")
+        let date = Date("2022-11-17")
         return (now >= date)
     }
 }

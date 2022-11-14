@@ -26,6 +26,7 @@ class GoToGameButtonNode: SKSpriteNode {
         self.init(imageNamed: "mainButtonTexture")
         self.size = CGSize(width: 274, height: 70)
         self.zPosition = 31.0
+        label.position = CGPoint(x: 0, y: -label.frame.height/2)
         self.addChild(label)
         self.name = "gameOverButton"
     }

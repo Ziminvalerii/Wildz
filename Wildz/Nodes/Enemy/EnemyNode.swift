@@ -37,6 +37,7 @@ enum RewardType: CaseIterable {
         case .lightning:
             guard let scene = node.scene as? GameScene else {return}
             let lightningNode = LightningNode()
+            node.move(toParent: scene)
             scene.gameManager.toucheble.append(lightningNode)
             lightningNode.position = node.position
             scene.addChild(lightningNode)

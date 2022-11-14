@@ -171,13 +171,12 @@ class StartViewController: BaseViewController<StartPresenterProtocol>, StartView
         showBonus = true
         if Date().timeIntervalSince1970 > UserDefaultsValues.bonusDate.timeIntervalSince1970 {
             congratulationSoundPlay()
-        //    bonusAnimationView.play()
-            UserDefaultsValues.coinsCount += 50
         }
     }
     @IBAction func hideBonusButtonPressed(_ sender: Any) {
         pressedButtonSound()
         if Date().timeIntervalSince1970 > UserDefaultsValues.bonusDate.timeIntervalSince1970 {
+            UserDefaultsValues.coinsCount += 50
             UserDefaultsValues.bonusDate = Date().addingTimeInterval(86400)
             presenter.time = UserDefaultsValues.bonusDate.timeIntervalSince1970 - Date().timeIntervalSince1970
             presenter.startTimer()

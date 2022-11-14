@@ -499,7 +499,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hDS-DQ-RTE">
-                                <rect key="frame" x="262.5" y="393" width="371" height="228"/>
+                                <rect key="frame" x="262.5" y="93" width="371" height="228"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="container" translatesAutoresizingMaskIntoConstraints="NO" id="1y7-eL-kif">
                                         <rect key="frame" x="0.0" y="0.0" width="371" height="228"/>
@@ -568,7 +568,7 @@
                             <constraint firstItem="JbO-Lj-Pww" firstAttribute="centerX" secondItem="2ks-ep-8CY" secondAttribute="centerX" id="SMS-VO-qZV"/>
                             <constraint firstItem="hDS-DQ-RTE" firstAttribute="centerX" secondItem="2ks-ep-8CY" secondAttribute="centerX" id="Wot-1q-fqP"/>
                             <constraint firstItem="ILs-dh-RFG" firstAttribute="centerX" secondItem="2ks-ep-8CY" secondAttribute="centerX" id="dkS-hu-DCP"/>
-                            <constraint firstItem="hDS-DQ-RTE" firstAttribute="centerY" secondItem="2ks-ep-8CY" secondAttribute="centerY" constant="300" id="p1d-p8-5dC"/>
+                            <constraint firstItem="hDS-DQ-RTE" firstAttribute="centerY" secondItem="2ks-ep-8CY" secondAttribute="centerY" id="p1d-p8-5dC"/>
                             <constraint firstItem="yRU-Tf-125" firstAttribute="top" secondItem="2ks-ep-8CY" secondAttribute="top" constant="16" id="t5f-vN-bXM"/>
                             <constraint firstItem="27R-R7-ktK" firstAttribute="centerX" secondItem="2ks-ep-8CY" secondAttribute="centerX" id="ths-Pk-Sy8"/>
                             <constraint firstItem="ILs-dh-RFG" firstAttribute="top" secondItem="2ks-ep-8CY" secondAttribute="top" constant="16" id="wMU-sc-I0r"/>

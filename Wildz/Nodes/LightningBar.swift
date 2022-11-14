@@ -16,7 +16,7 @@ class LightningBar: SKSpriteNode {
             setText()
         }
     }
-     var maxLightning = CGFloat(1)
+     var maxLightning = CGFloat(8)
     var width: CGFloat = 0
     
 //    private lazy var progressBar:SKSpriteNode = {
@@ -76,12 +76,17 @@ extension LightningBar: ButtonType {
                 scene.addChild(lightning)
                 thunderSoundPlay()
                 lightning.animate()
-                scene.run(SKAction.sequence([SKAction.wait(forDuration: 0.5), SKAction.fadeOut(withDuration: 0.2), SKAction.fadeIn(withDuration: 0.2)]))
-                scene.enumerateChildNodes(withName: "enemy node") { node, error in
-                    if let node = node as? EnemyProtocol {
-                        node.animateDead()
+                scene.run(SKAction.sequence([SKAction.wait(forDuration: 0.5), SKAction.fadeOut(withDuration: 0.2), SKAction.fadeIn(withDuration: 0.2), SKAction.run {
+                    scene.enumerateChildNodes(withName: "ground node") { node, error in
+                        if let node = node as? GroundNode {
+                            node.enumerateChildNodes(withName: "enemy node") { enemyNode, error in
+                                if let enemyNode = enemyNode as? EnemyProtocol {
+                                    enemyNode.animateDead()
+                                }
+                            }
+                        }
                     }
-                }
+                }]))
             }
         }
     }

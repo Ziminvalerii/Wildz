@@ -36,13 +36,15 @@ class GameOverState: GKState {
         scene.addChild(backgroundNode)
         gameOverLabel.position = CGPoint(x: 0, y: scene.size.height/2 - gameOverLabel.frame.size.height/2 - 64)
         if let scoreString = gameSceneManager.gameTime {
-            scoreLabel.setStrokeText(scoreString.timeString(), size: 32)
+            scoreLabel.setStrokeText("Your score: \(scoreString.timeString())", size: 32)
             if UserDefaultsValues.bestScore < scoreString {
+                UserDefaultsValues.bestScore = scoreString
                 congratulationSoundPlay()
                 newRecordLabel.position = CGPoint(x: 0, y: scoreLabel.position.y + scoreLabel.frame.size.height/2 + newRecordLabel.frame.size.height/2 + 12)
                 scene.addChild(newRecordLabel)
             }
         }
+        UserDefaultsValues.coinsCount += gameSceneManager.coinsCount
         goToGameButton.position = CGPoint(x: 0, y: -scene.size.height/2 + goToGameButton.size.height/2 + 64)
         gameSceneManager.toucheble.append(goToGameButton)
         scene.addChild(gameOverLabel)

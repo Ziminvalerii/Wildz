@@ -64,7 +64,10 @@ class ShopViewController: BaseViewController<ShopPresenterProtocol>, ShopViewPro
                     buyButton.alpha = 0.5
                 }
             } else {
-                buyButton.alpha = 1
+                DispatchQueue.main.async {
+                    self.buyButton.alpha = 1
+                }
+               
             }
         }
     }
@@ -80,7 +83,7 @@ class ShopViewController: BaseViewController<ShopPresenterProtocol>, ShopViewPro
     func showBuyAlert(currentModel: ShopValuesModelProtocol?) {
         let alertController = UIAlertController(title: "Are you sure you want buy this item?", message: "", preferredStyle: .alert)
         let buyAction = UIAlertAction(title: "Yes", style: .default) { action in
-            guard UserDefaultsValues.coinsCount <= currentModel?.price ?? 0 else {
+            guard UserDefaultsValues.coinsCount >= currentModel?.price ?? 0 else {
                 alertController.dismiss(animated: true)
                 self.showAlert()
                 return
@@ -92,6 +95,10 @@ class ShopViewController: BaseViewController<ShopPresenterProtocol>, ShopViewPro
             } else if let currentModel = currentModel as? FenceModel {
                 UserDefaultsValues.availablFences.append(currentModel)
             }
+            if let currentModel = currentModel {
+                self.configureShopButton(currentModel: currentModel)
+            }
+            UserDefaultsValues.coinsCount -= currentModel?.price ?? 0
             self.coinsCountLabel.strokeTextWithImage(UserDefaultsValues.coinsCount.description)
             alertController.dismiss(animated: true)
         }

@@ -25,6 +25,7 @@ class GroundNode: SKSpriteNode {
     convenience init() {
         self.init(imageNamed: "groundImage")
         self.size = CGSize(width: 700, height: 80)
+        self.name = "ground node"
      //   self.init(color: .clear, size: CGSize(width: 700, height: 80))
         self.zPosition = 3
         spawnSprites()
