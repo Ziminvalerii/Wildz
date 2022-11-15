@@ -90,10 +90,13 @@ class ShopViewController: BaseViewController<ShopPresenterProtocol>, ShopViewPro
             }
             if let currentModel = currentModel as? CannonModel {
                  UserDefaultsValues.availableCannons.append(currentModel)
+                UserDefaultsValues.currentCannon = currentModel
             } else if let currentModel = currentModel as? CatapultModel {
                 UserDefaultsValues.availablCatapults.append(currentModel)
+                UserDefaultsValues.currentCatapult = currentModel
             } else if let currentModel = currentModel as? FenceModel {
                 UserDefaultsValues.availablFences.append(currentModel)
+                UserDefaultsValues.currentFence = currentModel
             }
             if let currentModel = currentModel {
                 self.configureShopButton(currentModel: currentModel)
@@ -111,6 +114,14 @@ class ShopViewController: BaseViewController<ShopPresenterProtocol>, ShopViewPro
     
     private func showAlert() {
         let alertController = UIAlertController(title: "You don`t have enough coins", message: "", preferredStyle: .alert)
+        let cancel = UIAlertAction(title: "Got it", style: UIAlertAction.Style.cancel)
+        cancel.setValue(UIColor.red, forKey: "titleTextColor")
+        alertController.addAction(cancel)
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    func paymenFailedAlert() {
+        let alertController = UIAlertController(title: "Something went wrong", message: "", preferredStyle: .alert)
         let cancel = UIAlertAction(title: "Got it", style: UIAlertAction.Style.cancel)
         cancel.setValue(UIColor.red, forKey: "titleTextColor")
         alertController.addAction(cancel)

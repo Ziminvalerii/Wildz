@@ -34,6 +34,7 @@ protocol ShopViewProtocol: AnyObject {
     func getSegmentIndex()->Int
     func configureShopButton(currentModel: ShopValuesModelProtocol)
     func getShopCollectionView()->UICollectionView
+    func paymenFailedAlert()
 }
 
 protocol ShopPresenterProtocol: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
@@ -73,11 +74,18 @@ class ShopPresenter: NSObject, ShopPresenterProtocol {
                 if success {
                     if let model = model as? CannonModel {
                          UserDefaultsValues.availableCannons.append(model)
+                        UserDefaultsValues.currentCannon = model
                     } else if let model = model as? CatapultModel {
                         UserDefaultsValues.availablCatapults.append(model)
+                        UserDefaultsValues.currentCatapult = model
                     } else if let model = model as? FenceModel {
                         UserDefaultsValues.availablFences.append(model)
+                        UserDefaultsValues.currentFence = model
                     }
+                    self.view?.configureShopButton(currentModel: model)
+                } else {
+                    print("failed")
+                    self.view?.paymenFailedAlert()
                 }
             }
         }

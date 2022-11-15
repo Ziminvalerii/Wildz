@@ -56,7 +56,8 @@ class GameScene: SKScene {
             node.update(timeInterval: currentTime)
         }
         if interval == 0 {
-            self.stateMachine.enter(GameOverState.self)
+            interval = 3
+      //      self.stateMachine.enter(GameOverState.self)
             return
         }
         if Int(currentTime)%interval == 0 && Int(prevDate ?? 0) != Int(currentTime) {
@@ -64,7 +65,8 @@ class GameScene: SKScene {
             enemyCount += 1
             prevDate = currentTime
             if divide == 0 {
-                self.stateMachine.enter(GameOverState.self)
+                divide = 3
+   //             self.stateMachine.enter(GameOverState.self)
                 return
             }
                 if enemyCount%divide == 0 {

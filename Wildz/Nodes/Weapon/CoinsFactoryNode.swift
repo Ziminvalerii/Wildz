@@ -12,7 +12,7 @@ import SpriteKit
 class CoinsFactoryNode: SKSpriteNode, WeaponProtocol {
     var damage: Int = 0
     
-    var strength: Int = 10
+    var strength: Int = 8
     
    
     convenience init() {

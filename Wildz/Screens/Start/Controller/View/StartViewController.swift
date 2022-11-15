@@ -71,6 +71,7 @@ class StartViewController: BaseViewController<StartPresenterProtocol>, StartView
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true 
         if let view = self.view as! SKView? {
             if let scene = SKScene(fileNamed: "StartScene") as? StartScene {
                 scene.size = view.bounds.size

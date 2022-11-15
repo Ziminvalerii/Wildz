@@ -9,7 +9,7 @@ import SpriteKit
 
 class FenceNode: SKSpriteNode, WeaponProtocol {
     var damage: Int = 0
-    var strength: Int = 35
+    var strength: Int = 25
     convenience init() {
         self.init(texture: UserDefaultsValues.currentFence.texture)
         self.size = CGSize(width: 20, height: 61)

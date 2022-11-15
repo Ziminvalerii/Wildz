@@ -11,7 +11,7 @@ import SpriteKit
 
 class CannonNode: SKSpriteNode, WeaponProtocol {
     var damage: Int = 1
-    var strength: Int = 15
+    var strength: Int = 10
     convenience init() {
         self.init(texture: UserDefaultsValues.currentCannon.texture)
         self.size = CGSize(width: 75, height: 43)

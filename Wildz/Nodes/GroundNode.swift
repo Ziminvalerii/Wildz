@@ -81,9 +81,9 @@ extension GroundNode: ButtonType {
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        guard let scene = scene else {return}
-        guard let weapon = scene.childNode(withName: "needed weapon") as? WeaponProtocol else {return}
-        guard let neededNode = neededNode else {return}
+        guard let scene = scene else {partsNode.map({$0.move(toParent: self)}); return}
+        guard let weapon = scene.childNode(withName: "needed weapon") as? WeaponProtocol else {partsNode.map({$0.move(toParent: self)}); return}
+        guard let neededNode = neededNode else {partsNode.map({$0.move(toParent: self)}); return}
    //     let
         if neededNode.count > 0 {
             var hasSamePos: Bool = false
@@ -95,6 +95,7 @@ extension GroundNode: ButtonType {
                     let xRange = -40.0 ... 40.0
                     if xRange.contains(enemyNodePos.x) {
                         hasSamePos = true
+                        self.partsNode.map({$0.move(toParent: self)})
                         return
                     }
                 }

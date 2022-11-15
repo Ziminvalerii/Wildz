@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "B692E576-8A33-4D0F-9843-C70C36EBB479"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Wildz/Constant/UserDefaultsValues.swift"
@@ -56,7 +56,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "53E1E46C-AF21-4B44-99EC-E681F48AD9C0"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Wildz/Constant/UserDefaultsValues.swift"
@@ -142,8 +142,8 @@
             filePath = "Wildz/Screens/Shop/View/ShopViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "185"
-            endingLineNumber = "185"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
             landmarkName = "buyButtonPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -158,57 +158,9 @@
             filePath = "Wildz/Screens/Shop/View/ShopViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "199"
-            endingLineNumber = "199"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
             landmarkName = "cancelButtonPressed(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "61421669-32AE-4687-858F-3A0D681BE3B5"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Wildz/Screens/Shop/View/ShopViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "showAlert()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E30838AF-EBFF-422D-AB29-EB46E355CD6A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Wildz/Screens/Shop/View/ShopViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "showBuyAlert(currentModel:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EDB54D85-9E65-41FF-BC56-B193CB1EC3B6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Wildz/Screens/Shop/View/ShopViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "showBuyAlert(currentModel:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -222,8 +174,8 @@
             filePath = "Wildz/Screens/Start/Controller/View/StartViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
             landmarkName = "showBonusButtonPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -238,8 +190,8 @@
             filePath = "Wildz/Screens/Start/Controller/View/StartViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
             landmarkName = "gameCenterPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -254,8 +206,8 @@
             filePath = "Wildz/Screens/Start/Controller/View/StartViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
             landmarkName = "authenticatePlayer()"
             landmarkType = "7">
          </BreakpointContent>
@@ -273,6 +225,86 @@
             startingLineNumber = "42"
             endingLineNumber = "42"
             landmarkName = "didEnter(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBD339FF-4DA4-4D26-B038-EA33B8605DE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Screens/Game/Scene/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "update(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AA3C7D9-F40E-44E2-AF7E-71CC5B5677A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Nodes/Weapon/CatapultNode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "createBall()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9AA3C7D9-F40E-44E2-AF7E-71CC5B5677A3 - e74540f82918bbd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wildz.CatapultNode.createBall() -&gt; ()"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Nodes/Weapon/CatapultNode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "227">
+               </Location>
+               <Location
+                  uuid = "9AA3C7D9-F40E-44E2-AF7E-71CC5B5677A3 - e74540f82918bbd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wildz.CatapultNode.createBall() -&gt; ()"
+                  moduleName = "Wildz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tkoldunova/Projects/Wildz/Wildz/Nodes/Weapon/CatapultNode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "558">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9F5E2DB-2FE2-451C-9267-14F7D4EDC36F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildz/Nodes/GroundNode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "touchesEnded(_:with:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

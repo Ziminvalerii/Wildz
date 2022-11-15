@@ -16,7 +16,7 @@ class LightningBar: SKSpriteNode {
             setText()
         }
     }
-     var maxLightning = CGFloat(8)
+     var maxLightning = CGFloat(6)
     var width: CGFloat = 0
     
 //    private lazy var progressBar:SKSpriteNode = {

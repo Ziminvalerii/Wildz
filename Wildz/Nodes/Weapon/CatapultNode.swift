@@ -9,7 +9,7 @@ import SpriteKit
 
 class CatapultNode:SKSpriteNode, WeaponProtocol {
     var damage: Int = 3
-    var strength: Int = 20
+    var strength: Int = 15
     var applyImplulseTextures: [SKTexture] = UserDefaultsValues.currentCatapult.movedTextures
     convenience init() {
         self.init(texture: UserDefaultsValues.currentCatapult.texture)
@@ -40,7 +40,6 @@ class CatapultNode:SKSpriteNode, WeaponProtocol {
             print("Impulse: \((enemy.position.x - ball.position.x)/25)")
             ball.applyImpulse(impulse: CGVector(dx: (enemy.position.x - ball.position.x)/47, dy: 20 /*(enemy.position.x - ball.position.x)/25)*/))
         }
-        
     }
     
     func hitAction() {
