@@ -217,6 +217,9 @@ extension ShopViewController: CustomSegmentedControlDelegate {
         pressedButtonSound()
         shopCollectionView.moveToFrame(contentOffset: 0)
         reloadData()
+        if index == 3 {
+            configureShopButton(currentModel: presenter.model[index].values.first!)
+        }
     }
     
 }

@@ -39,7 +39,7 @@ protocol ShopViewProtocol: AnyObject {
 
 protocol ShopPresenterProtocol: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     init(view: ShopViewProtocol)
-    
+    var model: ShopModel.AllCases {get}
     func requestProduct()
     func checkIdentifier(model: ShopValuesModelProtocol)->ProductSub?
     func buyProduct(model: ShopValuesModelProtocol)
