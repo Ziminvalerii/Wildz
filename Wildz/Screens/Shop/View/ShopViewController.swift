@@ -9,6 +9,7 @@ import UIKit
 
 class ShopViewController: BaseViewController<ShopPresenterProtocol>, ShopViewProtocol {
     var router: RouterProtocol!
+    @IBOutlet weak var restoreButton: UIButton!
     @IBOutlet weak var shopTitle: UILabel! {
         didSet {
             shopTitle.setStrokeText("Shop")
@@ -206,6 +207,9 @@ class ShopViewController: BaseViewController<ShopPresenterProtocol>, ShopViewPro
 //
 //    }
     
+    @IBAction func restoreButtonTapped(_ sender: Any) {
+        presenter.restorePurchases()
+    }
     @IBAction func cancelButtonPressed(_ sender: Any) {
         pressedButtonSound()
         router.back()

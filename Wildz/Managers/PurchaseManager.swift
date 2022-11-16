@@ -11,6 +11,11 @@ import StoreKit
 public typealias ProductsRequestCompletionHandler = (_ products: [ProductSub]?) -> Void
 public typealias ProductPurchaseCompletionHandler = (_ success: Bool, _ productId : String?) -> Void
 
+enum Subscription:String, CaseIterable {
+    case bestCannon = "com.upgradedCannon.character"
+    case bestCatapult = "com.upgradedCatapult.character"
+    case bestFence = "com.upgradedFence.character"
+}
 
 class IAPManager: NSObject {
     private var productsRequestCompletionHandler: ProductsRequestCompletionHandler?
@@ -41,6 +46,13 @@ class IAPManager: NSObject {
         SKPaymentQueue.default().add(payment)
         
     }
+    
+    func restoreTransactions(_ complition : @escaping ProductPurchaseCompletionHandler) {
+            productPurchaseCompletionHandler = complition
+            if (SKPaymentQueue.canMakePayments()) {
+                SKPaymentQueue.default().restoreCompletedTransactions()
+            }
+        }
 }
 
 extension IAPManager: SKProductsRequestDelegate {
@@ -62,11 +74,7 @@ extension IAPManager: SKProductsRequestDelegate {
     
 }
 
-enum Subscription:String, CaseIterable {
-    case bestCannon = "com.bestCannon.character"
-    case bestCatapult = "com.bestCatapult.character"
-    case bestFence = "com.bestFence.character"
-}
+
 
 extension IAPManager: SKPaymentTransactionObserver {
     public func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
@@ -79,8 +87,8 @@ extension IAPManager: SKPaymentTransactionObserver {
                 fail(transaction: transaction)
                 break
             case .restored:
-                SKPaymentQueue.default().finishTransaction(transaction)
-//                restore(transaction: transaction)
+//                SKPaymentQueue.default().finishTransaction(transaction)
+                restore(transaction: transaction)
                 break
             case .deferred:
                 break
@@ -108,6 +116,13 @@ extension IAPManager: SKPaymentTransactionObserver {
         SKPaymentQueue.default().finishTransaction(transaction)
         clearHandler()
     }
+    
+    private func restore(transaction: SKPaymentTransaction) {
+            guard let productIdentifier = transaction.original?.payment.productIdentifier else { return }
+            print("restore... \(productIdentifier)")
+            productPurchaseCompleted(productID: productIdentifier)
+            SKPaymentQueue.default().finishTransaction(transaction)
+        }
      
     private func productPurchaseCompleted(productID : String) {
         productPurchaseCompletionHandler?(true, productID)

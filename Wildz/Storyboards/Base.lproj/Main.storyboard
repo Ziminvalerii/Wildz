@@ -722,6 +722,19 @@
                                     <constraint firstAttribute="height" constant="31" id="dVx-7P-LPR"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uW-EB-jcb">
+                                <rect key="frame" x="755" y="24" width="125" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="1Ww-4x-7hy"/>
+                                    <constraint firstAttribute="width" constant="125" id="Krn-xP-DN0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Restore" backgroundImage="cellContainer"/>
+                                <connections>
+                                    <action selector="restoreButtonTapped:" destination="dXV-HT-FPh" eventType="touchUpInside" id="wGo-VL-Ph4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rnh-AX-bp5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -731,6 +744,7 @@
                             <constraint firstItem="SYK-vD-RFc" firstAttribute="bottom" secondItem="2ye-MQ-FBO" secondAttribute="bottom" constant="-8" id="7l8-AE-Q43"/>
                             <constraint firstItem="Rnh-AX-bp5" firstAttribute="trailing" secondItem="4R2-D9-vlE" secondAttribute="trailing" constant="246" id="7tv-2n-euW"/>
                             <constraint firstItem="2ye-MQ-FBO" firstAttribute="top" secondItem="nz7-C1-imw" secondAttribute="top" id="9Qd-qv-QhU"/>
+                            <constraint firstItem="Rnh-AX-bp5" firstAttribute="trailing" secondItem="6uW-EB-jcb" secondAttribute="trailing" constant="16" id="Aci-YY-ZkF"/>
                             <constraint firstItem="V5L-nw-lOF" firstAttribute="centerX" secondItem="2ye-MQ-FBO" secondAttribute="centerX" id="DyG-hV-Os7"/>
                             <constraint firstItem="RRZ-kj-7yi" firstAttribute="trailing" secondItem="2ye-MQ-FBO" secondAttribute="trailing" id="F7J-7c-8hS"/>
                             <constraint firstItem="mRg-Is-Ffq" firstAttribute="top" secondItem="nz7-C1-imw" secondAttribute="top" id="FUM-bG-DkM"/>
@@ -746,6 +760,7 @@
                             <constraint firstAttribute="trailing" secondItem="mRg-Is-Ffq" secondAttribute="trailing" id="bh1-Eb-yVl"/>
                             <constraint firstItem="8gc-FY-Gkz" firstAttribute="top" secondItem="nz7-C1-imw" secondAttribute="top" constant="24" id="c7a-mo-hew"/>
                             <constraint firstItem="0KA-Rf-Wjf" firstAttribute="centerX" secondItem="lk7-ZO-gXf" secondAttribute="centerX" id="ers-Bm-ZFU"/>
+                            <constraint firstItem="6uW-EB-jcb" firstAttribute="top" secondItem="nz7-C1-imw" secondAttribute="top" constant="24" id="fpL-vA-6yK"/>
                             <constraint firstItem="SYK-vD-RFc" firstAttribute="centerX" secondItem="nz7-C1-imw" secondAttribute="centerX" id="gKM-ar-KX7"/>
                             <constraint firstItem="SYK-vD-RFc" firstAttribute="leading" secondItem="2ye-MQ-FBO" secondAttribute="leading" constant="32" id="jxM-d9-9nV"/>
                             <constraint firstItem="V5L-nw-lOF" firstAttribute="top" secondItem="lk7-ZO-gXf" secondAttribute="bottom" constant="9" id="kfe-jj-vJD"/>
@@ -758,6 +773,7 @@
                         <outlet property="buyButton" destination="4R2-D9-vlE" id="76F-p9-iMg"/>
                         <outlet property="coinsCountLabel" destination="0KA-Rf-Wjf" id="BNh-JX-bCc"/>
                         <outlet property="customSegmentControl" destination="SYK-vD-RFc" id="c4E-xN-RUl"/>
+                        <outlet property="restoreButton" destination="6uW-EB-jcb" id="FbU-Ic-hn4"/>
                         <outlet property="shopCollectionView" destination="V5L-nw-lOF" id="ww1-Wz-btf"/>
                         <outlet property="shopTitle" destination="8gc-FY-Gkz" id="Ksr-A8-PxN"/>
                     </connections>

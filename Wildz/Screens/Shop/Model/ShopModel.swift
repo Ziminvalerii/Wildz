@@ -127,7 +127,7 @@ enum CannonModel: String, CaseIterable, ShopValuesModelProtocol {
         case .cannon3:
             return nil
         case .cannon4:
-            return "com.bestCannon.character"
+            return Subscription.bestCannon.rawValue
         }
     }
 }
@@ -187,7 +187,7 @@ case catapult3 = "com.catapult3.key"
         case .catapult2:
             return nil
         case .catapult3:
-            return "com.bestCatapult.character"
+            return Subscription.bestCatapult.rawValue
         }
     }
 }
@@ -255,7 +255,7 @@ enum FenceModel: String, CaseIterable, ShopValuesModelProtocol {
         case .fence4:
             return nil
         case .fence5:
-            return "com.bestFence.character"
+            return Subscription.bestFence.rawValue
         }
     }
 }

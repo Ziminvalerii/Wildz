@@ -118,6 +118,7 @@
 		D13FCD82290EC20F002A8927 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		D13FCD84290EC27A002A8927 /* VibrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationManager.swift; sourceTree = "<group>"; };
 		D13FCD86290EF41C002A8927 /* pressSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pressSound.wav; sourceTree = "<group>"; };
+		D156B80A29254808008A792C /* StoreKitConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreKitConfiguration.storekit; sourceTree = "<group>"; };
 		D1958F4F2914620E0049A148 /* moon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = moon.json; sourceTree = "<group>"; };
 		D1958F52291466F30049A148 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		D1958F5429146BDD0049A148 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
@@ -315,6 +316,7 @@
 		D1AE4BEB290696CE0014EEB4 /* Wildz */ = {
 			isa = PBXGroup;
 			children = (
+				D156B80A29254808008A792C /* StoreKitConfiguration.storekit */,
 				D1E59FEB291150C3009B5F59 /* Info.plist */,
 				D1AE4BEC290696CE0014EEB4 /* AppDelegate.swift */,
 				D13FCD81290EC1F2002A8927 /* Managers */,
@@ -916,7 +918,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = MW55CH9923;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -952,7 +954,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = MW55CH9923;
 				GENERATE_INFOPLIST_FILE = YES;

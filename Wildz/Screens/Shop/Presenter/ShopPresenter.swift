@@ -31,6 +31,7 @@ enum BuyButtonActionType {
 protocol ShopViewProtocol: AnyObject {
     //var shopCollectionView: UICollectionView {get}
     func reloadData()
+    
     func getSegmentIndex()->Int
     func configureShopButton(currentModel: ShopValuesModelProtocol)
     func getShopCollectionView()->UICollectionView
@@ -41,6 +42,7 @@ protocol ShopPresenterProtocol: UICollectionViewDelegateFlowLayout, UICollection
     init(view: ShopViewProtocol)
     var model: ShopModel.AllCases {get}
     func requestProduct()
+    func restorePurchases()
     func checkIdentifier(model: ShopValuesModelProtocol)->ProductSub?
     func buyProduct(model: ShopValuesModelProtocol)
     func currentCell(scrollView: UIScrollView, collectionView: UICollectionView) -> UICollectionViewCell?
@@ -51,6 +53,7 @@ class ShopPresenter: NSObject, ShopPresenterProtocol {
     var model = ShopModel.allCases
     let iapManager = IAPManager()
     var products: [ProductSub]?
+    var currentModel: ShopValuesModelProtocol?
     required init(view: ShopViewProtocol) {
         self.view = view
         super.init()
@@ -86,6 +89,29 @@ class ShopPresenter: NSObject, ShopPresenterProtocol {
                 } else {
                     print("failed")
                     self.view?.paymenFailedAlert()
+                }
+            }
+        }
+    }
+    
+    func restorePurchases() {
+        iapManager.restoreTransactions { success, productId in
+            if success && productId != nil {
+                if let productId = Subscription(rawValue: productId!) {
+                    for model in self.model {
+                        if let m = model.values.first(where: {$0.purchaseIdentifier == productId.rawValue}) {
+                            if let m = m as? CannonModel {
+                                 UserDefaultsValues.availableCannons.append(m)
+                            } else if let m = m as? CatapultModel {
+                                UserDefaultsValues.availablCatapults.append(m)
+                            } else if let m = m as? FenceModel {
+                                UserDefaultsValues.availablFences.append(m)
+                            }
+                            if let currentModel = self.currentModel {
+                                self.view?.configureShopButton(currentModel: currentModel)
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -128,6 +154,7 @@ extension ShopPresenter {
         if let cell = currentCell(scrollView: scrollView, collectionView: view.getShopCollectionView()), let currentCell = cell as? ShopCollectionViewCell {
             //view.currentModel = currentCell.model
             view.configureShopButton(currentModel: currentCell.model)
+            currentModel = currentCell.model
         }
     }
     
